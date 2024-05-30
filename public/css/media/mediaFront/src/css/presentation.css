@@ -1,0 +1,299 @@
+#titreBlocPres{
+    margin-top:50px;
+    text-align:center;
+    background-color:#4CA66B;
+    border:1px #4CA66B solid;
+    border-radius:10px;
+    font-size:18px
+}
+.suit{
+    text-decoration:none;
+    color:#F60;
+}
+#cadreBlocPres{
+    margin-top: 10px;
+    border:#4CA66B 1px solid;
+    border-radius:10px 50px 10px 50px;
+    background-color:#fff;
+}
+#liresuitePres{
+    font-size:8px;
+    font-weight:bold;
+    font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+}
+#contenuBlocpres{
+    margin-top: 20px;
+}
+#lienDecorPres{
+    text-decoration:none;
+    color:#fff;
+}
+
+#cadreOrganigrame,#cadreHistorique,#cadrePresentation,#cadreInter
+{
+    background-color:#FFF;
+    border:#4CA66B solid 1px;
+    margin-top:0px;
+    border-radius:100px 0px 100px 0px;
+}
+#cadreDepartement{
+    background-color:#FFF;
+    border:#4CA66B solid 1px;
+    border-radius:100px 0px 100px 0px;
+}
+
+.alinea
+{
+    text-indent: 15px;
+}
+#premiere_lettre_texte
+{
+    font-size:18px;
+    font-family:Arial;
+}
+
+#cadreInternational{
+    background-color:#FFF;
+    border:#4CA66B solid 1px;
+    margin-top:50px;
+}
+#basDep{
+    margin-top: 50px;
+}
+.gras
+{
+    font-weight:bold;
+}
+
+.souligneInt{
+    border-bottom:#4CA66B solid 1px;
+}
+#titre{
+    color:#4CA66B;
+    font-size:37px;
+}
+#texteorga{
+    margin-top: 50px;
+}
+.mots_souligne
+{
+    text-decoration:none;
+    color:#f60;
+}
+#organigrameOrga1{
+    font-weight:bold;
+    border:1px solid black;
+    width:90%;
+    height:50px;
+    box-shadow:5px 5px 10px grey;
+}
+#organigrameOrga2{
+    font-weight:bold;
+    border:1px solid black;
+    width:90%;
+    height:40px;
+    box-shadow:5px 5px 10px grey;
+}
+.organigrameTexte{
+    text-align: center;
+    margin-left: 50px;
+}
+#barreOrga{
+    border-left:1px solid black;
+    height:30px;
+}
+.suivanteLigne{
+    margin-left: 20px;
+}
+.suivanteLigne1{
+    margin-left: 80px;
+}
+#commis{
+    margin-top: 20px;
+}
+.suivantBouton{
+    background-color:silver;
+    border-radius:10px;
+}
+.boutondecor
+{
+    text-decoration: none;
+}
+#titre1{
+    margin-top: 20px;
+}
+
+/*****css de bootstrap en ligne**/
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-stacked > li + li {
+    margin-top: 0px;
+}
+.nav-tabs > li > a {
+    padding: 5px 10px 5px 10px !important;
+    color: #AAAAAA;
+    background-color: #fffffd;
+    border: 0px;
+    border-radius: 0px;
+    margin: 0;
+}
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+    background-color: #4CA66B;
+    color: #FFFFFF;
+    z-index: 99;
+    transition: all 0.5s ease 0s;
+}
+.nav-tabs > li.active > a {
+    color: #FFFFFF;
+    background-color:#4CA66B;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, .6);
+    z-index: 100;
+}
+.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #FFFFFF;
+    background-color: #9ED2AF;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, .6);
+    transition: all 0.5s ease 0s;
+}
+
+/*********fin css bootstrap de css ****/
+
+/***debut de personnalisation de la page****/
+
+#corps_page{
+    margin-top:50px;
+}
+#bloc_gauche
+{
+    margin-top:40px;
+}
+
+#aboressence{
+    margin-top:0%;
+}
+
+/***************debut du bloc droit de la page css ******************/
+
+.principal
+{
+    width:100%;
+    background-color:#FFF;
+    position:0px;
+    border:#4CA66B solid 1px;
+    padding-left: 0px;
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-left:0px;
+    border-radius:80px 0px 80px 0px;
+}
+.principal_en_chiffre
+{
+    width:100%;
+    background-color:white;
+    border:#4CA66B solid 1px;
+    padding-left: 0px;
+    padding-top: 20px;
+    margin-left:2%;
+    border-radius:100px 0px 100px 0px;
+}
+.sudImage,.centreImage,.nordImage{
+    border: solid #4CA66B 1px;
+    border-radius: 30px 1px 30px 1px;
+}
+#sud_img,#centre_img,#nord_img{
+    margin-left: 30px;
+}
+#sud_img_xs,#centre_img_xs,#nord_img_xs{
+    margin-top: 10px;
+}
+#sud_img_xs{
+    margin-left:0px;
+}
+/******css partie de inp sud******/
+.principal_sud{
+    width:100%;
+    /*min-height:700px;*/
+    /*max-height: 550px;*/
+    background-color:#FFF;
+    border:#4CA66B solid 1px;
+    padding-left: 0px;
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-left:2%;
+    border-radius:80px 0px 80px 0px;
+}
+.mots_souligne
+{
+    text-decoration:none;
+    color:#f60;
+}
+.li_site
+{
+    color:#555;
+    font-size: 90%;
+    text-decoration:none;
+}
+#titre
+{
+    color:#4CA66B;
+    font-size:120%;
+    margin-top:10px;
+    text-align:center;
+    font-weight: bold;
+}
+
+#marginInst{
+    margin-top: 40px;
+}
+#bas_images_inp{
+    margin-top: 20px;
+}
+/******fin css partie de inp sud******/
+/******css partie de inp centre******/
+.principal_centre{
+    width:100%;
+    background-color:#FFF;
+    border:#4CA66B solid 1px;
+    padding-left: 0px;
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-left:2%;
+    border-radius:80px 0px 80px 0px;
+}
+/******fin css partie de inp centre******/
+/******css partie de inp nord******/
+.principal_nord{
+    width:100%;
+    background-color:#FFF;
+    border:#4CA66B solid 1px;
+    padding-left: 0px;
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-left:2%;
+    border-radius:80px 0px 80px 0px;
+}
+/******fin css partie de inp nord******/
+/******css partie de antenne abidjan******/
+.principal_antenne{
+    width:100%;
+    background-color:#FFF;
+    border:#4CA66B solid 1px;
+    padding-left: 0px;
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-left:2%;
+    border-radius:80px 0px 80px 0px;
+}
+/******fin css partie de inp nord******/
+
+
+/***************fin du bloc droit de la page css ******************/
+/*************css de la partie inp en chiffre**************/
+#effectif{
+    font-weight:bold;
+}
+#corpsTexteDroit{
+    margin-top: 30px;
+}
+
+
